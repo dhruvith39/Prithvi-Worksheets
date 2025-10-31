@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mathematics Worksheet</title>
+    <style>
+        @page {
+            margin: 2cm;
+        }
+        
+        body {
+            font-family: 'Georgia', 'Times New Roman', serif;
+            line-height: 1.6;
+            max-width: 210mm;
+            margin: 0 auto;
+            padding: 20px;
+            background: white;
+            color: #2c3e50;
+        }
+        
+        .header {
+            text-align: center;
+            border-bottom: 3px solid #9b59b6;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+        
+        .header h1 {
+            font-size: 28px;
+            color: #2c3e50;
+            margin: 0 0 10px 0;
+            font-weight: 600;
+        }
+        
+        .header .subtitle {
+            font-size: 14px;
+            color: #7f8c8d;
+            font-style: italic;
+        }
+        
+        .info-bar {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 30px;
+            padding: 15px;
+            background: #ecf0f1;
+            border-radius: 5px;
+        }
+        
+        .info-item {
+            font-size: 13px;
+            color: #34495e;
+        }
+        
+        .info-item strong {
+            color: #2c3e50;
+        }
+        
+        .section {
+            margin-bottom: 35px;
+            page-break-inside: avoid;
+        }
+        
+        .section-title {
+            font-size: 16px;
+            font-weight: 600;
+            color: white;
+            background: linear-gradient(135deg, #9b59b6 0%, #8e44ad 100%);
+            padding: 10px 15px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            letter-spacing: 0.5px;
+        }
+        
+        .question {
+            margin-bottom: 25px;
+            padding: 15px;
+            background: #f8f9fa;
+            border-left: 4px solid #9b59b6;
+            border-radius: 3px;
+        }
+        
+        .question-number {
+            font-weight: 600;
+            color: #9b59b6;
+            font-size: 14px;
+            margin-bottom: 8px;
+        }
+        
+        .question-text {
+            font-size: 14px;
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+        
+        .answer-space {
+            border-bottom: 2px dotted #bdc3c7;
+            min-height: 40px;
+            margin-top: 10px;
+        }
+        
+        .answer-key {
+            font-size: 11px;
+            color: #95a5a6;
+            font-style: italic;
+            margin-top: 8px;
+            padding: 8px;
+            background: white;
+            border-radius: 3px;
+        }
+        
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 2px solid #ecf0f1;
+            font-size: 11px;
+            color: #95a5a6;
+        }
+        
+        @media print {
+            body {
+                padding: 0;
+            }
+            
+            .question {
+                page-break-inside: avoid;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Mathematics Worksheet</h1>
+        <div class="subtitle">Coordinate Geometry, Linear Equations, Probability & Quadratics</div>
+    </div>
+    
+    <div class="info-bar">
+        <div class="info-item"><strong>Name:</strong> _________________________</div>
+        <div class="info-item"><strong>Date:</strong> _________________________</div>
+        <div class="info-item"><strong>Total Questions:</strong> 25</div>
+    </div>
+    
+    <div class="section">
+        <div class="section-title">A. COORDINATE GEOMETRY</div>
+        
+        <div class="question">
+            <div class="question-number">Q1.</div>
+            <div class="question-text">What are the coordinates of the origin?</div>
+            <div class="answer-space"></div>
+            <div class="answer-key">Answer: (0, 0)</div>
+        </div>
+        
+        <div class="question">
+            <div class="question-number">Q2.</div>
+            <div class="question-text">Point A(4, 0) lies on which axis?</div>
+            <div class="answer-space"></div>
+            <div class="answer-key">Answer: X-axis</div>
+        </div>
+        
+        <div class="question">
+            <div class="question-number">Q3.</div>
+            <div class="question-text">Point B(0, –3) lies on which axis?</div>
+            <div class="answer-space"></div>
+            <div class="answer-key">Answer: Y-axis</div>
+        </div>
+        
+        <div class="question">
+            <div class="question-number">Q4.</div>
+            <div class="question-text">Find the distance between points (2, 3) and (5, 7).</div>
+            <div class="answer-space"></div>
+            <div class="answer-key">Answer: √[(5 − 2)² + (7 − 3)²] = √(9 + 16) = 5</div>
+        </div>
+        
+        <div class="question">
+            <div class="question-number">Q5.</div>
+            <div class="question-text">Find the midpoint of the line joining (2, 4) and (6, 8).</div>
+            <div class="answer-space"></div>
+            <div class="answer-key">Answer: ((2 + 6)/2, (4 + 8)/2) = (4, 6)</div>
+        </div>
+    </div>
+    
+    <div class="section">
+        <div class="section-title">B. LINEAR EQUATIONS IN TWO VARIABLES</div>
+        
+        <div class="question">
+            <div class="question-number">Q6.</div>
+            <div class="question-text">Write the equation of a line whose slope is 2 and y-intercept is 3.</div>
+            <div class="answer-space"></div>
+            <div class="answer-key">Answer: y = 2x + 3</div>
+        </div>
+        
+        <div class="question">
+            <div class="question-number">Q7.</div>
+            <div class="question-text">Determine whether (1, 5) is a solution of y = 2x + 3.</div>
+            <div class="answer-space"></div>
+            <div class="answer-key">Answer: 2(1) + 3 = 5 → Yes, it satisfies</div>
+        </div>
+        
+        <div class="question">
+            <div class="question-number">Q8.</div>
+            <div class="question-text">Find the slope of the line 2y = 6x + 4.</div>
+            <div class="answer-space"></div>
+            <div class="answer-key">Answer: y = 3x + 2 → Slope = 3</div>
+        </div>
+        
+        <div class="question">
+            <div class="question-number">Q9.</div>
+            <div class="question-text">Write the equation of a line passing through (0, 4) and (2, 8).</div>
+            <div class="answer-space"></div>
+            <div class="answer-key">Answer: Slope = (8 − 4)/(2 − 0) = 2 → y = 2x + 4</div>
+        </div>
+        
+        <div class="question">
+            <div class="question-number">Q10.</div>
+            <div class="question-text">Find the y-intercept of the line 3x + 2y = 8.</div>
+            <div class="answer-space"></div>
+            <div class="answer-key">Answer: When x = 0, 2y = 8 → y = 4</div>
+        </div>
+    </div>
+    
+    <div class="section">
+        <div class="section-title">C. PROBABILITY (BASIC)</div>
+        
+        <div class="question">
+            <div class="question-number">Q11.</div>
+            <div class="question-text">A coin is tossed once. What is the probability of getting heads?</div>
+            <div class="answer-space"></div>
+            <div class="answer-key">Answer: 1/2</div>
+        </div>
+        
+        <div class="question">
+            <div class="question-number">Q12.</div>
+            <div class="question-text">A die is rolled. Find the probability of getting an even number.</div>
+            <div class="answer-space"></div>
+            <div class="answer-key">Answer: Even = 2, 4, 6 → 3/6 = 1/2</div>
+        </div>
+        
+        <div class="question">
+            <div class="question-number">Q13.</div>
+            <div class="question-text">A bag contains 3 red and 2 blue balls. Find the probability of drawing a red ball.</div>
+            <div class="answer-space"></div>
+            <div class="answer-key">Answer: 3/5</div>
+        </div>
+        
+        <div class="question">
+            <div class="question-number">Q14.</div>
+            <div class="question-text">A number is chosen from 1 to 10. Find the probability it is greater than 5.</div>
+            <div class="answer-space"></div>
+            <div class="answer-key">Answer: Numbers: 6, 7, 8, 9, 10 → 5/10 = 1/2</div>
+        </div>
+        
+        <div class="question">
+            <div class="question-number">Q15.</div>
+            <div class="question-text">What is the probability of getting a vowel when a letter is chosen from the word "MATHS"?</div>
+            <div class="answer-space"></div>
+            <div class="answer-key">Answer: 1 vowel (A) out of 5 letters → 1/5</div>
+        </div>
+    </div>
+    
+    <div class="section">
+        <div class="section-title">D. ADVANCED ALGEBRA (Identities & Factorization)</div>
+        
+        <div class="question">
+            <div class="question-number">Q16.</div>
+            <div class="question-text">Expand using identity: (a + b)²</div>
+            <div class="answer-space"></div>
+            <div class="answer-key">Answer: a² + 2ab + b²</div>
+        </div>
+        
+        <div class="question">
+            <div class="question-number">Q17.</div>
+            <div class="question-text">Expand using identity: (a − b)²</div>
+            <div class="answer-space"></div>
+            <div class="answer-key">Answer: a² − 2ab + b²</div>
+        </div>
+        
+        <div class="question">
+            <div class="question-number">Q18.</div>
+            <div class="question-text">Expand using identity: (a + b)(a − b)</div>
+            <div class="answer-space"></div>
+            <div class="answer-key">Answer: a² − b²</div>
+        </div>
+        
+        <div class="question">
+            <div class="question-number">Q19.</div>
+            <div class="question-text">Factorise: x² + 7x + 10</div>
+            <div class="answer-space"></div>
+            <div class="answer-key">Answer: (x + 5)(x + 2)</div>
+        </div>
+        
+        <div class="question">
+            <div class="question-number">Q20.</div>
+            <div class="question-text">Factorise: x² − 25</div>
+            <div class="answer-space"></div>
+            <div class="answer-key">Answer: (x − 5)(x + 5)</div>
+        </div>
+    </div>
+    
+    <div class="section">
+        <div class="section-title">E. QUADRATIC INTRODUCTION</div>
+        
+        <div class="question">
+            <div class="question-number">Q21.</div>
+            <div class="question-text">Write the general form of a quadratic equation.</div>
+            <div class="answer-space"></div>
+            <div class="answer-key">Answer: ax² + bx + c = 0</div>
+        </div>
+        
+        <div class="question">
+            <div class="question-number">Q22.</div>
+            <div class="question-text">Find the discriminant of x² + 4x + 4 = 0.</div>
+            <div class="answer-space"></div>
+            <div class="answer-key">Answer: D = b² − 4ac = 16 − 16 = 0</div>
+        </div>
+        
+        <div class="question">
+            <div class="question-number">Q23.</div>
+            <div class="question-text">Find the roots of x² − 5x + 6 = 0.</div>
+            <div class="answer-space"></div>
+            <div class="answer-key">Answer: (x − 2)(x − 3) = 0 → x = 2, 3</div>
+        </div>
+        
+        <div class="question">
+            <div class="question-number">Q24.</div>
+            <div class="question-text">If one root of x² − 7x + 10 = 0 is 2, find the other root.</div>
+            <div class="answer-space"></div>
+            <div class="answer-key">Answer: Product of roots = c/a = 10 → 2 × other = 10 → other = 5</div>
+        </div>
+        
+        <div class="question">
+            <div class="question-number">Q25.</div>
+            <div class="question-text">Determine the nature of roots for x² + 2x + 3 = 0.</div>
+            <div class="answer-space"></div>
+            <div class="answer-key">Answer: D = 4 − 12 = −8 → Roots are imaginary</div>
+        </div>
+    </div>
+    
+    <div class="footer">
+        <p>© 2025 Mathematics Worksheet | Show all working for full credit</p>
+    </div>
+    
+    <script>
+        window.onload = function() {
+            document.title = "Mathematics_Worksheet_Coordinate_Quadratics";
+        };
+    </script>
+</body>
+</html>

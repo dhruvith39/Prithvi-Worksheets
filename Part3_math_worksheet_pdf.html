@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mathematics Worksheet</title>
+    <style>
+        @page {
+            margin: 2cm;
+        }
+        
+        body {
+            font-family: 'Georgia', 'Times New Roman', serif;
+            line-height: 1.6;
+            max-width: 210mm;
+            margin: 0 auto;
+            padding: 20px;
+            background: white;
+            color: #2c3e50;
+        }
+        
+        .header {
+            text-align: center;
+            border-bottom: 3px solid #e74c3c;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+        
+        .header h1 {
+            font-size: 28px;
+            color: #2c3e50;
+            margin: 0 0 10px 0;
+            font-weight: 600;
+        }
+        
+        .header .subtitle {
+            font-size: 14px;
+            color: #7f8c8d;
+            font-style: italic;
+        }
+        
+        .info-bar {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 30px;
+            padding: 15px;
+            background: #ecf0f1;
+            border-radius: 5px;
+        }
+        
+        .info-item {
+            font-size: 13px;
+            color: #34495e;
+        }
+        
+        .info-item strong {
+            color: #2c3e50;
+        }
+        
+        .section {
+            margin-bottom: 35px;
+            page-break-inside: avoid;
+        }
+        
+        .section-title {
+            font-size: 16px;
+            font-weight: 600;
+            color: white;
+            background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%);
+            padding: 10px 15px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            letter-spacing: 0.5px;
+        }
+        
+        .question {
+            margin-bottom: 25px;
+            padding: 15px;
+            background: #f8f9fa;
+            border-left: 4px solid #e74c3c;
+            border-radius: 3px;
+        }
+        
+        .question-number {
+            font-weight: 600;
+            color: #e74c3c;
+            font-size: 14px;
+            margin-bottom: 8px;
+        }
+        
+        .question-text {
+            font-size: 14px;
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+        
+        .answer-space {
+            border-bottom: 2px dotted #bdc3c7;
+            min-height: 40px;
+            margin-top: 10px;
+        }
+        
+        .answer-key {
+            font-size: 11px;
+            color: #95a5a6;
+            font-style: italic;
+            margin-top: 8px;
+            padding: 8px;
+            background: white;
+            border-radius: 3px;
+        }
+        
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 2px solid #ecf0f1;
+            font-size: 11px;
+            color: #95a5a6;
+        }
+        
+        @media print {
+            body {
+                padding: 0;
+            }
+            
+            .question {
+                page-break-inside: avoid;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Mathematics Worksheet</h1>
+        <div class="subtitle">Circles, Area & Perimeter, Volume, Inequalities & Statistics</div>
+    </div>
+    
+    <div class="info-bar">
+        <div class="info-item"><strong>Name:</strong> _________________________</div>
+        <div class="info-item"><strong>Date:</strong> _________________________</div>
+        <div class="info-item"><strong>Total Questions:</strong> 25</div>
+    </div>
+    
+    <div class="section">
+        <div class="section-title">A. CIRCLES</div>
+        
+        <div class="question">
+            <div class="question-number">Q1.</div>
+            <div class="question-text">The radius of a circle is 7 cm. Find its circumference.</div>
+            <div class="answer-space"></div>
+            <div class="answer-key">Answer: 2πr = 2 × 3.14 × 7 = 43.96 cm</div>
+        </div>
+        
+        <div class="question">
+            <div class="question-number">Q2.</div>
+            <div class="question-text">Find the area of a circle of radius 10 cm.</div>
+            <div class="answer-space"></div>
+            <div class="answer-key">Answer: πr² = 3.14 × 10² = 314 cm²</div>
+        </div>
+        
+        <div class="question">
+            <div class="question-number">Q3.</div>
+            <div class="question-text">The diameter of a circle is 14 cm. Find its radius.</div>
+            <div class="answer-space"></div>
+            <div class="answer-key">Answer: r = 14/2 = 7 cm</div>
+        </div>
+        
+        <div class="question">
+            <div class="question-number">Q4.</div>
+            <div class="question-text">Find the length of the arc that subtends an angle of 90° at the center of a circle of radius 8 cm.</div>
+            <div class="answer-space"></div>
+            <div class="answer-key">Answer: 90/360 × 2πr = 1/4 × 2 × 3.14 × 8 = 12.56 cm</div>
+        </div>
+        
+        <div class="question">
+            <div class="question-number">Q5.</div>
+            <div class="question-text">The area of a circle is 154 cm². Find its radius (take π = 3.14).</div>
+            <div class="answer-space"></div>
+            <div class="answer-key">Answer: r = √(154/3.14) ≈ 7 cm</div>
+        </div>
+    </div>
+    
+    <div class="section">
+        <div class="section-title">B. AREA & PERIMETER (2D SHAPES)</div>
+        
+        <div class="question">
+            <div class="question-number">Q6.</div>
+            <div class="question-text">Find the area of a rectangle of length 12 cm and breadth 8 cm.</div>
+            <div class="answer-space"></div>
+            <div class="answer-key">Answer: 12 × 8 = 96 cm²</div>
+        </div>
+        
+        <div class="question">
+            <div class="question-number">Q7.</div>
+            <div class="question-text">Find the perimeter of a square whose side is 9 cm.</div>
+            <div class="answer-space"></div>
+            <div class="answer-key">Answer: 4 × 9 = 36 cm</div>
+        </div>
+        
+        <div class="question">
+            <div class="question-number">Q8.</div>
+            <div class="question-text">Find the area of a triangle with base 10 cm and height 6 cm.</div>
+            <div class="answer-space"></div>
+            <div class="answer-key">Answer: 1/2 × 10 × 6 = 30 cm²</div>
+        </div>
+        
+        <div class="question">
+            <div class="question-number">Q9.</div>
+            <div class="question-text">Find the area of a parallelogram with base 15 cm and height 9 cm.</div>
+            <div class="answer-space"></div>
+            <div class="answer-key">Answer: 15 × 9 = 135 cm²</div>
+        </div>
+        
+        <div class="question">
+            <div class="question-number">Q10.</div>
+            <div class="question-text">Find the perimeter of a regular hexagon whose side is 7 cm.</div>
+            <div class="answer-space"></div>
+            <div class="answer-key">Answer: 6 × 7 = 42 cm</div>
+        </div>
+    </div>
+    
+    <div class="section">
+        <div class="section-title">C. SURFACE AREA & VOLUME (3D SHAPES)</div>
+        
+        <div class="question">
+            <div class="question-number">Q11.</div>
+            <div class="question-text">Find the volume of a cube of side 5 cm.</div>
+            <div class="answer-space"></div>
+            <div class="answer-key">Answer: 5³ = 125 cm³</div>
+        </div>
+        
+        <div class="question">
+            <div class="question-number">Q12.</div>
+            <div class="question-text">Find the total surface area of a cube of side 10 cm.</div>
+            <div class="answer-space"></div>
+            <div class="answer-key">Answer: 6a² = 6 × 10² = 600 cm²</div>
+        </div>
+        
+        <div class="question">
+            <div class="question-number">Q13.</div>
+            <div class="question-text">Find the volume of a cuboid of length 8 cm, breadth 5 cm, and height 4 cm.</div>
+            <div class="answer-space"></div>
+            <div class="answer-key">Answer: 8 × 5 × 4 = 160 cm³</div>
+        </div>
+        
+        <div class="question">
+            <div class="question-number">Q14.</div>
+            <div class="question-text">Find the volume of a cylinder of radius 7 cm and height 10 cm.</div>
+            <div class="answer-space"></div>
+            <div class="answer-key">Answer: πr²h = 3.14 × 7² × 10 = 1538.6 cm³</div>
+        </div>
+        
+        <div class="question">
+            <div class="question-number">Q15.</div>
+            <div class="question-text">Find the curved surface area of a cylinder of radius 7 cm and height 10 cm.</div>
+            <div class="answer-space"></div>
+            <div class="answer-key">Answer: 2πrh = 2 × 3.14 × 7 × 10 = 439.6 cm²</div>
+        </div>
+    </div>
+    
+    <div class="section">
+        <div class="section-title">D. LINEAR INEQUALITIES</div>
+        
+        <div class="question">
+            <div class="question-number">Q16.</div>
+            <div class="question-text">Solve and represent on number line: x + 3 < 7</div>
+            <div class="answer-space"></div>
+            <div class="answer-key">Answer: x < 4</div>
+        </div>
+        
+        <div class="question">
+            <div class="question-number">Q17.</div>
+            <div class="question-text">Solve: 2x − 5 ≥ 9</div>
+            <div class="answer-space"></div>
+            <div class="answer-key">Answer: 2x ≥ 14 → x ≥ 7</div>
+        </div>
+        
+        <div class="question">
+            <div class="question-number">Q18.</div>
+            <div class="question-text">Solve: −3x ≤ 9</div>
+            <div class="answer-space"></div>
+            <div class="answer-key">Answer: x ≥ −3 (sign changes when dividing by a negative)</div>
+        </div>
+        
+        <div class="question">
+            <div class="question-number">Q19.</div>
+            <div class="question-text">Solve: 5x + 2 > 12</div>
+            <div class="answer-space"></div>
+            <div class="answer-key">Answer: 5x > 10 → x > 2</div>
+        </div>
+        
+        <div class="question">
+            <div class="question-number">Q20.</div>
+            <div class="question-text">If x is an integer satisfying 2 < x ≤ 6, list possible values.</div>
+            <div class="answer-space"></div>
+            <div class="answer-key">Answer: 3, 4, 5, 6</div>
+        </div>
+    </div>
+    
+    <div class="section">
+        <div class="section-title">E. DATA HANDLING & STATISTICS</div>
+        
+        <div class="question">
+            <div class="question-number">Q21.</div>
+            <div class="question-text">The marks of 5 students are: 10, 20, 30, 40, 50. Find the mean.</div>
+            <div class="answer-space"></div>
+            <div class="answer-key">Answer: (10 + 20 + 30 + 40 + 50)/5 = 30</div>
+        </div>
+        
+        <div class="question">
+            <div class="question-number">Q22.</div>
+            <div class="question-text">Find the median of the data: 2, 4, 6, 8, 10.</div>
+            <div class="answer-space"></div>
+            <div class="answer-key">Answer: 6</div>
+        </div>
+        
+        <div class="question">
+            <div class="question-number">Q23.</div>
+            <div class="question-text">Find the mode of the data: 3, 4, 4, 5, 6, 6, 6.</div>
+            <div class="answer-space"></div>
+            <div class="answer-key">Answer: 6</div>
+        </div>
+        
+        <div class="question">
+            <div class="question-number">Q24.</div>
+            <div class="question-text">The average age of 5 students is 15 years. Find their total age.</div>
+            <div class="answer-space"></div>
+            <div class="answer-key">Answer: 15 × 5 = 75 years</div>
+        </div>
+        
+        <div class="question">
+            <div class="question-number">Q25.</div>
+            <div class="question-text">A pie chart shows that 25% of a class chose Science, 35% chose Commerce, and the rest chose Arts. What percentage chose Arts?</div>
+            <div class="answer-space"></div>
+            <div class="answer-key">Answer: 100 − (25 + 35) = 40%</div>
+        </div>
+    </div>
+    
+    <div class="footer">
+        <p>© 2025 Mathematics Worksheet | Show all working for full credit</p>
+    </div>
+    
+    <script>
+        window.onload = function() {
+            document.title = "Mathematics_Worksheet_Circles_Statistics";
+        };
+    </script>
+</body>
+</html>

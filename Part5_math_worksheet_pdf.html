@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mathematics Worksheet</title>
+    <style>
+        @page {
+            margin: 2cm;
+        }
+        
+        body {
+            font-family: 'Georgia', 'Times New Roman', serif;
+            line-height: 1.6;
+            max-width: 210mm;
+            margin: 0 auto;
+            padding: 20px;
+            background: white;
+            color: #2c3e50;
+        }
+        
+        .header {
+            text-align: center;
+            border-bottom: 3px solid #f39c12;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+        
+        .header h1 {
+            font-size: 28px;
+            color: #2c3e50;
+            margin: 0 0 10px 0;
+            font-weight: 600;
+        }
+        
+        .header .subtitle {
+            font-size: 14px;
+            color: #7f8c8d;
+            font-style: italic;
+        }
+        
+        .info-bar {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 30px;
+            padding: 15px;
+            background: #ecf0f1;
+            border-radius: 5px;
+        }
+        
+        .info-item {
+            font-size: 13px;
+            color: #34495e;
+        }
+        
+        .info-item strong {
+            color: #2c3e50;
+        }
+        
+        .section {
+            margin-bottom: 35px;
+            page-break-inside: avoid;
+        }
+        
+        .section-title {
+            font-size: 16px;
+            font-weight: 600;
+            color: white;
+            background: linear-gradient(135deg, #f39c12 0%, #e67e22 100%);
+            padding: 10px 15px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            letter-spacing: 0.5px;
+        }
+        
+        .question {
+            margin-bottom: 25px;
+            padding: 15px;
+            background: #f8f9fa;
+            border-left: 4px solid #f39c12;
+            border-radius: 3px;
+        }
+        
+        .question-number {
+            font-weight: 600;
+            color: #f39c12;
+            font-size: 14px;
+            margin-bottom: 8px;
+        }
+        
+        .question-text {
+            font-size: 14px;
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+        
+        .answer-space {
+            border-bottom: 2px dotted #bdc3c7;
+            min-height: 40px;
+            margin-top: 10px;
+        }
+        
+        .answer-key {
+            font-size: 11px;
+            color: #95a5a6;
+            font-style: italic;
+            margin-top: 8px;
+            padding: 8px;
+            background: white;
+            border-radius: 3px;
+        }
+        
+        .data-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 10px 0;
+            font-size: 12px;
+        }
+        
+        .data-table th,
+        .data-table td {
+            border: 1px solid #bdc3c7;
+            padding: 8px;
+            text-align: center;
+        }
+        
+        .data-table th {
+            background: #ecf0f1;
+            font-weight: 600;
+        }
+        
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 2px solid #ecf0f1;
+            font-size: 11px;
+            color: #95a5a6;
+        }
+        
+        @media print {
+            body {
+                padding: 0;
+            }
+            
+            .question {
+                page-break-inside: avoid;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Mathematics Worksheet</h1>
+        <div class="subtitle">Advanced 3D Shapes, Statistics, Word Problems & Trigonometry</div>
+    </div>
+    
+    <div class="info-bar">
+        <div class="info-item"><strong>Name:</strong> _________________________</div>
+        <div class="info-item"><strong>Date:</strong> _________________________</div>
+        <div class="info-item"><strong>Total Questions:</strong> 25</div>
+    </div>
+    
+    <div class="section">
+        <div class="section-title">A. MENSURATION – ADVANCED 3D SHAPES</div>
+        
+        <div class="question">
+            <div class="question-number">Q1.</div>
+            <div class="question-text">Find the volume of a sphere of radius 7 cm.</div>
+            <div class="answer-space"></div>
+            <div class="answer-key">Answer: 4/3 πr³ = 4/3 × 3.14 × 7³ = 1436.76 cm³</div>
+        </div>
+        
+        <div class="question">
+            <div class="question-number">Q2.</div>
+            <div class="question-text">Find the surface area of a sphere of radius 7 cm.</div>
+            <div class="answer-space"></div>
+            <div class="answer-key">Answer: 4πr² = 4 × 3.14 × 49 = 615.44 cm²</div>
+        </div>
+        
+        <div class="question">
+            <div class="question-number">Q3.</div>
+            <div class="question-text">Find the volume of a cone of radius 3 cm and height 9 cm.</div>
+            <div class="answer-space"></div>
+            <div class="answer-key">Answer: 1/3 πr²h = 1/3 × 3.14 × 9 × 9 = 84.78 cm³</div>
+        </div>
+        
+        <div class="question">
+            <div class="question-number">Q4.</div>
+            <div class="question-text">Find the curved surface area of a cone with radius 7 cm and slant height 10 cm.</div>
+            <div class="answer-space"></div>
+            <div class="answer-key">Answer: πrl = 3.14 × 7 × 10 = 219.8 cm²</div>
+        </div>
+        
+        <div class="question">
+            <div class="question-number">Q5.</div>
+            <div class="question-text">Find the total surface area of a hemisphere of radius 5 cm.</div>
+            <div class="answer-space"></div>
+            <div class="answer-key">Answer: 3πr² = 3 × 3.14 × 25 = 235.5 cm²</div>
+        </div>
+    </div>
+    
+    <div class="section">
+        <div class="section-title">B. STATISTICS – TABLES & DATA</div>
+        
+        <div class="question">
+            <div class="question-number">Q6.</div>
+            <div class="question-text">The marks of students are given below. Find the mean marks.</div>
+            <table class="data-table">
+                <tr>
+                    <th>Marks</th>
+                    <td>10</td>
+                    <td>20</td>
+                    <td>30</td>
+                    <td>40</td>
+                    <td>50</td>
+                </tr>
+                <tr>
+                    <th>No. of Students</th>
+                    <td>2</td>
+                    <td>4</td>
+                    <td>6</td>
+                    <td>5</td>
+                    <td>3</td>
+                </tr>
+            </table>
+            <div class="answer-space"></div>
+            <div class="answer-key">Answer: (10×2 + 20×4 + 30×6 + 40×5 + 50×3)/20 = 720/20 = 36</div>
+        </div>
+        
+        <div class="question">
+            <div class="question-number">Q7.</div>
+            <div class="question-text">Find the mode from the same data.</div>
+            <div class="answer-space"></div>
+            <div class="answer-key">Answer: Highest frequency = 6 (for 30 marks) → Mode = 30</div>
+        </div>
+        
+        <div class="question">
+            <div class="question-number">Q8.</div>
+            <div class="question-text">Find the median class.</div>
+            <div class="answer-space"></div>
+            <div class="answer-key">Answer: Total = 20 → Median = 10th and 11th → lies in 30 → Median = 30</div>
+        </div>
+        
+        <div class="question">
+            <div class="question-number">Q9.</div>
+            <div class="question-text">The average weight of 10 students is 45 kg. Find the total weight.</div>
+            <div class="answer-space"></div>
+            <div class="answer-key">Answer: 45 × 10 = 450 kg</div>
+        </div>
+        
+        <div class="question">
+            <div class="question-number">Q10.</div>
+            <div class="question-text">The mean of 5 numbers is 18. If one number is 28, find the mean of remaining 4 numbers.</div>
+            <div class="answer-space"></div>
+            <div class="answer-key">Answer: Sum = 18 × 5 = 90, Remaining = 90 − 28 = 62, Mean = 62 ÷ 4 = 15.5</div>
+        </div>
+    </div>
+    
+    <div class="section">
+        <div class="section-title">C. WORD PROBLEMS (ALGEBRA, GEOMETRY, RATIO)</div>
+        
+        <div class="question">
+            <div class="question-number">Q11.</div>
+            <div class="question-text">The sum of two numbers is 35 and their difference is 5. Find the numbers.</div>
+            <div class="answer-space"></div>
+            <div class="answer-key">Answer: Add → 2x = 40 → x = 20, then y = 15</div>
+        </div>
+        
+        <div class="question">
+            <div class="question-number">Q12.</div>
+            <div class="question-text">A train travels 240 km in 3 hours. Find its speed.</div>
+            <div class="answer-space"></div>
+            <div class="answer-key">Answer: 240 ÷ 3 = 80 km/h</div>
+        </div>
+        
+        <div class="question">
+            <div class="question-number">Q13.</div>
+            <div class="question-text">A rectangle has length 12 cm and perimeter 40 cm. Find its breadth.</div>
+            <div class="answer-space"></div>
+            <div class="answer-key">Answer: 2(l + b) = 40 → l + b = 20 → b = 8 cm</div>
+        </div>
+        
+        <div class="question">
+            <div class="question-number">Q14.</div>
+            <div class="question-text">The ratio of boys to girls in a class is 3 : 2. If there are 30 students, find number of boys and girls.</div>
+            <div class="answer-space"></div>
+            <div class="answer-key">Answer: Total parts = 5 → Boys = 3/5 × 30 = 18; Girls = 12</div>
+        </div>
+        
+        <div class="question">
+            <div class="question-number">Q15.</div>
+            <div class="question-text">A man spends 2/5 of his salary on rent and 1/4 on food. What fraction remains?</div>
+            <div class="answer-space"></div>
+            <div class="answer-key">Answer: 2/5 + 1/4 = 8/20 + 5/20 = 13/20 → Remaining = 7/20</div>
+        </div>
+    </div>
+    
+    <div class="section">
+        <div class="section-title">D. TRIGONOMETRY (INTRODUCTION)</div>
+        
+        <div class="question">
+            <div class="question-number">Q16.</div>
+            <div class="question-text">Define sine of an angle in a right triangle.</div>
+            <div class="answer-space"></div>
+            <div class="answer-key">Answer: sin θ = Opposite Side / Hypotenuse</div>
+        </div>
+        
+        <div class="question">
+            <div class="question-number">Q17.</div>
+            <div class="question-text">If sin θ = 3/5, find cos θ.</div>
+            <div class="answer-space"></div>
+            <div class="answer-key">Answer: cos θ = √(1 − sin² θ) = √(1 − 9/25) = 4/5</div>
+        </div>
+        
+        <div class="question">
+            <div class="question-number">Q18.</div>
+            <div class="question-text">Find the value of tan 45°.</div>
+            <div class="answer-space"></div>
+            <div class="answer-key">Answer: 1</div>
+        </div>
+        
+        <div class="question">
+            <div class="question-number">Q19.</div>
+            <div class="question-text">Find the value of sin 30° + cos 60°.</div>
+            <div class="answer-space"></div>
+            <div class="answer-key">Answer: 1/2 + 1/2 = 1</div>
+        </div>
+        
+        <div class="question">
+            <div class="question-number">Q20.</div>
+            <div class="question-text">If tan θ = 1, find the value of θ.</div>
+            <div class="answer-space"></div>
+            <div class="answer-key">Answer: θ = 45°</div>
+        </div>
+    </div>
+    
+    <div class="section">
+        <div class="section-title">E. REAL-LIFE APPLICATIONS</div>
+        
+        <div class="question">
+            <div class="question-number">Q21.</div>
+            <div class="question-text">A cylindrical water tank has radius 3 m and height 5 m. Find its capacity in liters.</div>
+            <div class="answer-space"></div>
+            <div class="answer-key">Answer: Volume = πr²h = 3.14 × 9 × 5 = 141.3 m³ → 141.3 × 1000 = 141,300 liters</div>
+        </div>
+        
+        <div class="question">
+            <div class="question-number">Q22.</div>
+            <div class="question-text">A ladder 10 m long leans against a wall and reaches 8 m high. Find the distance of the foot of the ladder from the wall.</div>
+            <div class="answer-space"></div>
+            <div class="answer-key">Answer: √(10² − 8²) = √36 = 6 m</div>
+        </div>
+        
+        <div class="question">
+            <div class="question-number">Q23.</div>
+            <div class="question-text">The radius of a circular garden is 7 m. Find the distance covered in one round of the garden.</div>
+            <div class="answer-space"></div>
+            <div class="answer-key">Answer: 2πr = 2 × 3.14 × 7 = 43.96 m</div>
+        </div>
+        
+        <div class="question">
+            <div class="question-number">Q24.</div>
+            <div class="question-text">The cost of 5 kg of apples is $20. Find the cost of 8 kg.</div>
+            <div class="answer-space"></div>
+            <div class="answer-key">Answer: 20/5 = 4 per kg → 8 × 4 = $32</div>
+        </div>
+        
+        <div class="question">
+            <div class="question-number">Q25.</div>
+            <div class="question-text">A car travels 60 km in 1 hour. How long will it take to travel 180 km at the same speed?</div>
+            <div class="answer-space"></div>
+            <div class="answer-key">Answer: 180 ÷ 60 = 3 hours</div>
+        </div>
+    </div>
+    
+    <div class="footer">
+        <p>© 2025 Mathematics Worksheet | Show all working for full credit</p>
+    </div>
+    
+    <script>
+        window.onload = function() {
+            document.title = "Mathematics_Worksheet_Advanced_Applications";
+        };
+    </script>
+</body>
+</html>
